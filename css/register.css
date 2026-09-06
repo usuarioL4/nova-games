@@ -63,6 +63,10 @@ main{
     
 }
 
+#reference-code{
+    width: 50%;
+}
+
 .main-footer {
     background-color: black;
     display: flex;
