@@ -99,8 +99,8 @@ function validatePassword() {
         return false;
     }
 
-    if (password.length < 8) {
-        passwordError.textContent = "The password must be 8 characters min!";
+    if (password.length < 4) {
+        passwordError.textContent = "The password must be 4 characters min!";
         return false;
     }
 
