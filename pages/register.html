@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nova-Register</title>
-    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="/css/register.css">
+    <script src="../js/register.js" defer></script>
 </head>
 
 <body>
@@ -16,25 +17,25 @@
 
         <div class="register-form__field">
             <label for="username" class="register-form__label">Username</label>
-            <input type="text" id="username" class="register-form__input" name="username" placeholder="volcano3503" required>
+            <input type="text" id="username" class="register-form__input" name="username" placeholder="volcano3503">
             <span id="username-error" class="register-form__error"></span>
         </div>
 
         <div class="register-form__field">
             <label for="email" class="register-form__label">Email</label>
-            <input type="email" id="email" class="register-form__input" name="email" placeholder="example@gmail.com" required>
+            <input type="email" id="email" class="register-form__input" name="email" placeholder="example@gmail.com">
             <span id="email-error" class="register-form__error"></span>
         </div>
 
         <div class="register-form__field">
             <label for="password" class="register-form__label">Password</label>
-            <input type="password" id="password" class="register-form__input" name="password" required>
+            <input type="password" id="password" class="register-form__input" name="password">
             <span id="password-error" class="register-form__error"></span>
         </div>
 
         <div class="register-form__field">
             <label for="confirm-password" class="register-form__label">Confirm password</label>
-            <input type="password" id="confirm-password" class="register-form__input" name="confirm-password" required>
+            <input type="password" id="confirm-password" class="register-form__input" name="confirm-password">
             <span id="confirm-password-error" class="register-form__error"></span>
         </div>
 
@@ -58,7 +59,7 @@
             <span id="age-error" class="register-form__error"></span>
         </div>
 
-        <button type="button" id="submit-buttom" class="register-form__button">
+        <button type="submit" id="submit-buttom" class="register-form__button">
             Register
         </button>
 
