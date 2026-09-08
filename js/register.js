@@ -263,4 +263,5 @@ form.addEventListener("submit", function(event) {
 
     console.log("Usuario registrado:", user);
     console.log("Todos los usuarios:", users);
+    window.location.href = "../pages/login.html";
 });
