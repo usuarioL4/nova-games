@@ -20,7 +20,7 @@ body {
             rgba(0, 0, 0, 0.1),
             rgba(0, 0, 0, 1)
         ),
-        url("/images/background/background-home.png");
+        url("../images/background/background-home.png");
 
     background-repeat: no-repeat;
     background-position: center;
@@ -224,7 +224,7 @@ body {
             rgba(0, 0, 0, 0.1),
             rgba(0, 0, 0, 0.8)
         ),
-        url("/images/background/gta6-background.png");
+        url("../images/background/gta6-background.png");
 }
 
 #blog-game__2 {
@@ -234,7 +234,7 @@ body {
             rgba(0, 0, 0, 0.1),
             rgba(0, 0, 0, 0.8)
         ),
-        url("/images/background/call-of-duty-background.png");
+        url("../images/background/call-of-duty-background.png");
 }
 
 #blog-game__3 {
@@ -244,7 +244,7 @@ body {
             rgba(0, 0, 0, 0.1),
             rgba(0, 0, 0, 0.8)
         ),
-        url("/images/background/reddead-background.png");
+        url("../images/background/reddead-background.png");
 }
 
 .blog-card__text {
@@ -285,7 +285,7 @@ body {
             rgba(0, 0, 0, 0.1),
             rgba(0, 0, 0, 2)
         ),
-        url("/images/background/futuristic-black-low-poly-background-abstract-geometric-rumpled-triangular-style-illustration-graphic-design-free-vector.jpg");
+        url("../images/background/futuristic-black-low-poly-background-abstract-geometric-rumpled-triangular-style-illustration-graphic-design-free-vector.jpg");
 
     padding-bottom: 200px;
 }
