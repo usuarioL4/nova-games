@@ -112,6 +112,9 @@ main{
     transform: scale(1.07);
 }
 
+.register-form__error{
+    color: red;
+}
 @media (min-width: 600px){
     .footer-nav__list{
         display: grid;

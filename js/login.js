@@ -106,5 +106,5 @@ form.addEventListener("submit",function(event){
     
     localStorage.setItem("currentUser",JSON.stringify(user));
     console.log("Login correcto:",user);
-    window.location.href = "./home.html";
+    window.location.href = "../pages/home.html";
 });
