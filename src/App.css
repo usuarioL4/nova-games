@@ -1,0 +1,239 @@
+
+/* Fondo general */
+body {
+    background-color: #000000;
+    color: #eeeeee;
+}
+
+/* Contenedor principal del catálogo */
+#catalogo.container {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 32px clamp(16px, 3vw, 48px);
+}
+
+/* Títulos */
+#catalogo h2,
+#catalogo h4,
+#catalogo h5 {
+    color: #ffffff;
+}
+
+/* Barra superior */
+.navbar {
+    width: 100%;
+    background-color: #0b0b0b !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.navbar .navbar-brand {
+    color: #eeeeee;
+}
+
+.navbar .nav-link {
+    color: #bdbdbd;
+    transition: color 0.2s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #1e90ff;
+}
+
+/* Búsqueda */
+.form-control,
+.form-select {
+    background-color: #181818;
+    color: #ffffff;
+    border-color: #333333;
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: #181818;
+    color: #ffffff;
+    border-color: #1e90ff;
+    box-shadow: 0 0 0 0.2rem rgba(30, 144, 255, 0.2);
+}
+
+.form-control::placeholder {
+    color: #888888;
+}
+
+/* Panel de filtros */
+.filter-panel {
+    align-self: flex-start;
+    padding: 20px;
+    background-color: #111111;
+    border: 1px solid #292929;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+#catalogo .filter-panel h4,
+#catalogo .filter-panel h5 {
+    color: #ffffff;
+}
+
+#catalogo .filter-panel form {
+    color: #ffffff;
+}
+
+.filter-panel .btn-outline-secondary {
+    color: #ffffff;
+    border-color: #292929;
+}
+
+#catalogo form {
+    color: #d3d3d3;
+}
+
+#catalogo .form-check-input {
+    background-color: #181818;
+    border-color: #555555;
+}
+
+#catalogo .form-check-input:checked {
+    background-color: #1e90ff;
+    border-color: #1e90ff;
+}
+
+/* Tarjetas de productos */
+.card {
+    height: 100%;
+    overflow: hidden;
+    color: #eeeeee;
+    background-color: #111111;
+    border: 1px solid #292929;
+    border-radius: 8px;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    border-color: #1e90ff;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    background-color: #181818;
+}
+
+.card .badge.bg-secondary {
+    background-color: #252525 !important;
+    color: #1e90ff;
+}
+
+.card .card-text {
+    color: #d3d3d3;
+}
+
+/* Botones */
+.btn-primary {
+    color: #ffffff;
+    background-color: #1e90ff;
+    border-color: #1e90ff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    color: #000000;
+    background-color: #39ff14;
+    border-color: #39ff14;
+}
+
+.btn-outline-secondary {
+    color: #d3d3d3;
+    border-color: #444444;
+}
+
+.btn-outline-secondary:hover {
+    color: #ffffff;
+    background-color: #252525;
+    border-color: #1e90ff;
+}
+
+/* Carrito */
+.alert {
+    color: #eeeeee;
+    background-color: #111111;
+    border-color: #292929;
+}
+
+/* Evitar desbordamiento en pantallas pequeñas */
+.row > * {
+    min-width: 0;
+}
+
+/* Inicio */
+.hero-inicio {
+    min-height: 360px;
+    color: #ffffff;
+    background-color: #0b0b0b;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-inicio h1 {
+    max-width: 720px;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
+}
+
+/* Detalle de producto */
+.detalle-imagen {
+    width: 100%;
+    max-height: 480px;
+    object-fit: cover;
+    border: 1px solid #292929;
+    border-radius: 8px;
+    background-color: #181818;
+}
+
+#detalle-producto .badge.bg-secondary {
+    background-color: #252525 !important;
+    color: #1e90ff;
+}
+
+/* Comunidad */
+.avatar-comentario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #1e90ff;
+    border-radius: 50%;
+}
+
+.mapa-comunidad {
+    width: 100%;
+    height: 380px;
+    border: 0;
+    border-radius: 8px;
+}
+
+/* Enlaces y pie de página */
+a {
+    color: #1e90ff;
+}
+
+.pie-pagina {
+    color: #bdbdbd;
+    background-color: #0b0b0b;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.pie-pagina a {
+    color: #bdbdbd;
+    text-decoration: none;
+}
+
+.pie-pagina a:hover {
+    color: #1e90ff;
+}
